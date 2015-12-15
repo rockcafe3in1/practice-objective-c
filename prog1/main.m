@@ -15,6 +15,7 @@ int main (int argc,const char * argv[])
         NSLog (@"Hey! This is Liang speaking...");
         NSLog (@"Once again, this is my first Objective-C program...");
         NSLog (@"Pay attention on my new git user and email...");
+        NSLog (@"Tell me how to upload my first program to github");
     }
     return 0;
 }
