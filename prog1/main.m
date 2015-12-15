@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[]) {
+int main (int argc,const char * argv[])
+{
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSLog (@"Programming Is Fun...");
+        NSLog (@"Hey! This is Liang speaking...");
+        NSLog (@"Once again, this is my first Objective-C program");
     }
     return 0;
 }
