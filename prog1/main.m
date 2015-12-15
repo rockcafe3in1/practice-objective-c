@@ -18,7 +18,8 @@ int main (int argc,const char * argv[])
         NSLog (@"Tell me how to upload my first program to github");
         NSLog (@"Practice to checkout an new branch, which is called dev02");
         NSLog (@"Any code changes should exsit in dev02 branch firstly, then");
-        NSLog (@"master branch receive commit branch devloping branch, like dev02");
+        NSLog (@"master branch receive all commits from dev branch, like dev02");
+        NSLog (@"This work flow can be a good chooise!!!");
     }
     return 0;
 }
