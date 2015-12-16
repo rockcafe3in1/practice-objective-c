@@ -20,8 +20,8 @@ int main (int argc,const char * argv[]){
 		NSLog (@"master branch receive all commits from dev branch, like dev02");
 		NSLog (@"This work flow can be a good chooise!!!");
 		NSLog (@"It's a whole new world...");
-        NSLog (@"You could compile your objective-c program from your commandline");
-        NSLog (@"try this command: $ clang -fobjc-arc main.m -o prog1");
+		NSLog (@"You could compile your objective-c program from your commandline");
+		NSLog (@"try this command: $ clang -fobjc-arc main.m -o prog1");
 	}
-    return 0;
+	return 0;
 }
