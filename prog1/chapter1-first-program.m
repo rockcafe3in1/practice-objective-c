@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-int main (int argc,const char * argv[]){
+int main_unused_entry (int argc,const char * argv[]){
 	@autoreleasepool {
 		NSLog (@"Programming Is Fun...");
 		NSLog (@"Hey! This is Liang speaking...");
