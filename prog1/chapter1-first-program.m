@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-int main_unused_entry (int argc,const char * argv[]){
+int main1_unused (int argc,const char * argv[]){
 	@autoreleasepool {
 		NSLog (@"Programming Is Fun...");
 		NSLog (@"Hey! This is Liang speaking...");
@@ -17,10 +17,12 @@ int main_unused_entry (int argc,const char * argv[]){
 		NSLog (@"Tell me how to upload my first program to github");
 		NSLog (@"Practice to checkout an new branch, which is called dev02");
 		NSLog (@"Any code changes should exsit in dev02 branch firstly then");
-		NSLog (@"master branch receive all commits from dev branch, like dev02");
+		NSLog (@"master branch receive all commits from dev branch, \
+               like dev02");
 		NSLog (@"This work flow can be a good chooise!!!");
 		NSLog (@"It's a whole new world...");
-		NSLog (@"You could compile your objective-c program from your commandline");
+		NSLog (@"You could compile your objective-c program from your \
+               commandline");
 		NSLog (@"try this command: $ clang -fobjc-arc main.m -o prog1");
 		// Separate a long string by using `\n` chararicter
 		NSLog (@"What's the best programming font for mac and xcode? \
@@ -31,23 +33,23 @@ int main_unused_entry (int argc,const char * argv[]){
 		NSLog (@"However i also wanna try my new programming font \
                - Andale Mono Regular");
 		// Or you can try other font - PT-Mono 18
-
+		
 		// Practice wrap your long comment with new lines, instead of a single
 		// line. That could be more nice if you make use good code formatting
 		// utilities.
-
+		
 		// Do you know how to format your code, that means code formatter will
 		// handle line break job
-
+		
 		// Display the following text
 		NSLog (@"\nIn Objective-C, lowercase leters are significant.\nmain is where program execution begin.\nOpen and closed braces enclose program statement in a routine.\nAll program statements must be terminated by a semicolon.");
 		NSLog (@"string A \
                string B \
                string C");
-
+               
 		// Display variable value
 		int value1, value2, sum;
-
+		
 		value1 = 50;
 		value2 = 25;
 		sum = value1 + value2;

@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC5D71CE1C985425000EDCF6 /* chapter2-data-encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5D71CD1C985425000EDCF6 /* chapter2-data-encapsulation.m */; };
+		EC5D71D01C985620000EDCF6 /* chapter3-datatypes.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5D71CF1C985620000EDCF6 /* chapter3-datatypes.m */; };
 		EC74517B1C20617800040C1D /* chapter1-first-program.m in Sources */ = {isa = PBXBuildFile; fileRef = EC74517A1C20617800040C1D /* chapter1-first-program.m */; };
-		ECAF9BFB1C28558B00C8FE0C /* chapter2-class-and-object.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAF9BFA1C28558B00C8FE0C /* chapter2-class-and-object.m */; };
+		ECA02D311C99BB10000244D6 /* chapter3-integer-arithmetic.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA02D301C99BB10000244D6 /* chapter3-integer-arithmetic.m */; };
+		ECAF9BFB1C28558B00C8FE0C /* chapter2-class-object.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAF9BFA1C28558B00C8FE0C /* chapter2-class-object.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EC5D71CD1C985425000EDCF6 /* chapter2-data-encapsulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter2-data-encapsulation.m"; sourceTree = "<group>"; };
+		EC5D71CF1C985620000EDCF6 /* chapter3-datatypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter3-datatypes.m"; sourceTree = "<group>"; };
 		EC7451771C20617800040C1D /* prog1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = prog1; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC74517A1C20617800040C1D /* chapter1-first-program.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "chapter1-first-program.m"; sourceTree = "<group>"; };
-		ECAF9BFA1C28558B00C8FE0C /* chapter2-class-and-object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter2-class-and-object.m"; sourceTree = "<group>"; };
+		ECA02D301C99BB10000244D6 /* chapter3-integer-arithmetic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter3-integer-arithmetic.m"; sourceTree = "<group>"; };
+		ECAF9BFA1C28558B00C8FE0C /* chapter2-class-object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter2-class-object.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				EC74517A1C20617800040C1D /* chapter1-first-program.m */,
-				ECAF9BFA1C28558B00C8FE0C /* chapter2-class-and-object.m */,
+				EC5D71CF1C985620000EDCF6 /* chapter3-datatypes.m */,
+				ECAF9BFA1C28558B00C8FE0C /* chapter2-class-object.m */,
+				EC5D71CD1C985425000EDCF6 /* chapter2-data-encapsulation.m */,
+				ECA02D301C99BB10000244D6 /* chapter3-integer-arithmetic.m */,
 			);
 			path = prog1;
 			sourceTree = "<group>";
@@ -121,7 +130,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECAF9BFB1C28558B00C8FE0C /* chapter2-class-and-object.m in Sources */,
+				EC5D71CE1C985425000EDCF6 /* chapter2-data-encapsulation.m in Sources */,
+				ECA02D311C99BB10000244D6 /* chapter3-integer-arithmetic.m in Sources */,
+				EC5D71D01C985620000EDCF6 /* chapter3-datatypes.m in Sources */,
+				ECAF9BFB1C28558B00C8FE0C /* chapter2-class-object.m in Sources */,
 				EC74517B1C20617800040C1D /* chapter1-first-program.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,19 +8,37 @@
 
 #import <Foundation/Foundation.h>
 
+// Could i put @interface section into header(.h)?
+// What does a header file should be?
 // interface section
-@interface Fraction : NSObject
+@interface FractionClassObject : NSObject
 
+// Property And Method Declarations
+// Books says that you also list items known as properties
+
+// Candidates A: Method
+// > Instance method
+//  In Chapter 7, “More on Classes,” you’ll see how
+//  methods that take more than one argument are identified
 -(void) print;
 -(void) setNumberator: (int) n;
 -(void) setDenominator: (int) d;
+// > Class method
+// works on class itself
+// For class method it will be demonstration soon
+
+// Candidates B: Properties
+// Properties demo will be appended later...
 
 @end
 
 // implementation section
-@implementation Fraction
+@implementation FractionClassObject
 {
-	// Here is instance variable declartion
+    
+    // proper declaration for the variable is made before
+    // it is used in the program.
+	// Instance Variables declartion
 	int numerator;
 	int denominator;
 }
@@ -42,12 +60,12 @@
 
 @end
 
-// Program section
-int main(int argc, const char * argv[])
+// ---- @Program section ----
+int main2_unused(int argc, const char * argv[])
 {
 	@autoreleasepool {
 		// Create instance and initilize object
-		Fraction *myFraction;
+		FractionClassObject *myFraction;
 		// myFraction = [Fraction alloc];
 		// myFraction = [myFraction init];
 
@@ -55,7 +73,7 @@ int main(int argc, const char * argv[])
 		// myFraction = [[Fraction alloc] init];
 
 		// Or your just type single one line code
-		myFraction = [Fraction new];
+		myFraction = [FractionClassObject new];
 
 		// Set fraction to 1/3
 		[myFraction setNumberator: 1];
