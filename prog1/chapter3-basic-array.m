@@ -56,7 +56,7 @@
 @end
 
 // ---- main section ----
-int main (int argc, const char * argv[]) {
+int main_basic_array (int argc, const char * argv[]) {
     
     @autoreleasepool {
         // A pointer to an int
