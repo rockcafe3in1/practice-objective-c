@@ -19,33 +19,41 @@
 // ---- implementation section ----
 @implementation SampleClass
 
+/* If you want to return a single-dimensional array
+ * from a function, you would have to declare a fun
+ * -ction returning a pointer as in the following 
+ * example
+ */
 - (int *) getRandom
 {
-    
     // If without static qulifier, what will happen?
     // Address of stack memory associated with local
     // variable 'r' returned
-    static int r[10];  // static array?
-    int i;
     
+    // Remember that Objective-C does not advocate to
+    // reutrn the address of a local variable to outside
+    // of the function, you would have to define the
+    // local variable as static variable.
+    static int r[10];
+    int i;
+
     // The srand() function sets its argument seed
     // as the seed for a new sequence of pseudo-random
     // numbers to be returned by rand()
-    
+
     // This sequence are repeatable by calling srand()
     // with the same seed value
     srand((unsigned int)time(NULL));
-    
+
     for (i = 0; i < 10; i++) {
         r[i] = rand();
         NSLog (@"r[%d] = %d\n", i, r[i]);
     }
-    
+
     return r;
 }
 
 @end
-
 
 // ---- main section ----
 int main (int argc, const char * argv[]) {
