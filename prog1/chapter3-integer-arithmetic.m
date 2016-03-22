@@ -10,7 +10,7 @@
 
 #import <Foundation/Foundation.h>
 
-int main (int argc, const char * argv[])
+int main_integer_arithmetic (int argc, const char * argv[])
 {
     @autoreleasepool {
         int     a = 25;
