@@ -19,7 +19,7 @@
 // Way-3: Formal parameters as an unsized array
 // - (void) myFunction: (int []) parm
 
-int main (int argc, const char * argv[])
+int main_pass_array (int argc, const char * argv[])
 {
     @autoreleasepool {
         
