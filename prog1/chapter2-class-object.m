@@ -43,6 +43,23 @@
 	int denominator;
 }
 
+/* Customize init method */
+-(instancetype)initWith: (int) n over: (int)d
+{
+    self = [super init];
+    if (self) {
+        [self setTo: n over: d];
+    }
+    return self;
+}
+
+/* Customize init method */
+-(void) setTo: (int) n over: (int) d
+{
+    numerator = n;
+    denominator = d;
+}
+
 -(void) print
 {
 	NSLog (@"Print fraction result: %i/%i", numerator, denominator);
@@ -61,7 +78,7 @@
 @end
 
 // ---- @Program section ----
-int main2_unused(int argc, const char * argv[])
+int main_class_object(int argc, const char * argv[])
 {
 	@autoreleasepool {
 		// Create instance and initilize object
@@ -73,11 +90,14 @@ int main2_unused(int argc, const char * argv[])
 		// myFraction = [[Fraction alloc] init];
 
 		// Or your just type single one line code
-		myFraction = [FractionClassObject new];
+		// myFraction = [FractionClassObject new];
 
+        /* Customize init method */
+        myFraction =[[FractionClassObject alloc] initWith: 1 over: 3];
+        
 		// Set fraction to 1/3
-		[myFraction setNumberator: 1];
-		[myFraction setDenominator: 3];
+		// [myFraction setNumberator: 1];
+		// [myFraction setDenominator: 3];
 
 		NSLog (@"The value of myFraction is:");
 		[myFraction print];
