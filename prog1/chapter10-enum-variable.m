@@ -15,9 +15,11 @@ int main (int argc, char * argv[])
     @autoreleasepool {
         
         /* Declara enum data type */
-        enum month {january = 1, february, march, april, may, june,
-            july, auguest, september, october, november,
-            december};
+        enum month {
+            january = 1, february,
+            march, april, may, june,
+            july, auguest, september,
+            october, november, december };
         /* Create enum variable */
         enum month amonth;
         int days;
