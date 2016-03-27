@@ -34,7 +34,7 @@ int gGlobalVar = 5;
 @end
 
 /* The main entry section */
-int main (int argc, char * argv[])
+int main_global_var (int argc, char * argv[])
 {
 	@autoreleasepool {
 		Foo *myFoo = [[Foo alloc] init];
