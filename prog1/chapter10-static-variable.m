@@ -40,7 +40,7 @@ static int gCounter;
 @end
 
 /* The executing section */
-int main (int argc, char * argv[])
+int main_static_var (int argc, char * argv[])
 {
     FractionStaticVar *a;
     FractionStaticVar *b;
@@ -59,4 +59,5 @@ int main (int argc, char * argv[])
      */
     NSLog (@"FractionStaticVar allocated : %i\n", [FractionStaticVar count]);
     
+    return 0;
 }

@@ -16,6 +16,7 @@
 		ECA02D311C99BB10000244D6 /* chapter3-integer-arithmetic.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA02D301C99BB10000244D6 /* chapter3-integer-arithmetic.m */; };
 		ECAF9BFB1C28558B00C8FE0C /* chapter2-class-object.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAF9BFA1C28558B00C8FE0C /* chapter2-class-object.m */; };
 		ECE88BD21CA7B2110052063A /* chapter10-static-variable.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE88BD11CA7B2110052063A /* chapter10-static-variable.m */; };
+		ECE88BD41CA7BF5D0052063A /* chapter10-enum-variable.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE88BD31CA7BF5D0052063A /* chapter10-enum-variable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		ECA02D301C99BB10000244D6 /* chapter3-integer-arithmetic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter3-integer-arithmetic.m"; sourceTree = "<group>"; };
 		ECAF9BFA1C28558B00C8FE0C /* chapter2-class-object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter2-class-object.m"; sourceTree = "<group>"; };
 		ECE88BD11CA7B2110052063A /* chapter10-static-variable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter10-static-variable.m"; sourceTree = "<group>"; };
+		ECE88BD31CA7BF5D0052063A /* chapter10-enum-variable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter10-enum-variable.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				EC95BB2E1CA19EEE00075FFF /* chapter3-pass-array-as-fun-arg.m */,
 				EC561D461CA67D40003D87B7 /* chapter10-global-variable.m */,
 				ECE88BD11CA7B2110052063A /* chapter10-static-variable.m */,
+				ECE88BD31CA7BF5D0052063A /* chapter10-enum-variable.m */,
 			);
 			path = prog1;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				EC95BB2F1CA19EEE00075FFF /* chapter3-pass-array-as-fun-arg.m in Sources */,
 				EC5D71CE1C985425000EDCF6 /* chapter2-data-encapsulation.m in Sources */,
 				ECA02D311C99BB10000244D6 /* chapter3-integer-arithmetic.m in Sources */,
+				ECE88BD41CA7BF5D0052063A /* chapter10-enum-variable.m in Sources */,
 				EC5D71D01C985620000EDCF6 /* chapter3-datatypes.m in Sources */,
 				ECE88BD21CA7B2110052063A /* chapter10-static-variable.m in Sources */,
 				ECAF9BFB1C28558B00C8FE0C /* chapter2-class-object.m in Sources */,
