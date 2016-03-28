@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+#define LOGSAY(month, day, year) \
+    NSLog (@"Today's date is %i/%i/%.2i.\n", (month), (day), (year) % 100)
+
 int main (int argc, char* argv[])
 {
     @autoreleasepool {
@@ -39,8 +42,7 @@ int main (int argc, char* argv[])
          * @"%.4i" - 80, it print 0080
          * @"%04i" - 80, it print 0080
          */
-        NSLog (@"Today's date is %i/%i/%.2i.\n", today.month,
-               today.day, today.year % 100);
+        LOGSAY(today.month, today.day, today.year);
 
         /* practice using pointer and -> operator */
         struct date* ptr;
@@ -50,8 +52,9 @@ int main (int argc, char* argv[])
         ptr->day += 1;
         ptr->year = 2016;
         
-        NSLog (@"Today's date is %i/%i/%.2i.\n", ptr->month,
-               ptr->day, ptr->year % 100);
+        /* Can you use preprocessor to replace log printing function? */
+        LOGSAY(ptr->month, ptr->day, ptr->year);
+
     }
     return 0;
 }
