@@ -42,7 +42,7 @@ int main (int argc, char* argv[])
          * @"%.4i" - 80, it print 0080
          * @"%04i" - 80, it print 0080
          */
-        LOGSAY(today.month, today.day, today.year);
+        LOGSAY (today.month, today.day, today.year);
 
         /* practice using pointer and -> operator */
         struct date* ptr;
@@ -53,7 +53,7 @@ int main (int argc, char* argv[])
         ptr->year = 2016;
         
         /* Can you use preprocessor to replace log printing function? */
-        LOGSAY(ptr->month, ptr->day, ptr->year);
+        LOGSAY (ptr->month, ptr->day, ptr->year);
 
     }
     return 0;
