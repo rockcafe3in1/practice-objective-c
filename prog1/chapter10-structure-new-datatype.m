@@ -19,6 +19,13 @@ int main (int argc, char* argv[])
             int year;
         };
         
+        /* When finish define strcture, there is no storeage to be 
+         * reserved inside the computer. The following statement 
+         * declares a variable to be of type struct date and, there-
+         * fore, does reserve memory for storing the tree integer
+         * members of the structure variable today
+         */
+        
         /* Declaration of structure */
         struct date today;
         
