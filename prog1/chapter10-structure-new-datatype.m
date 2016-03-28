@@ -39,8 +39,19 @@ int main (int argc, char* argv[])
          * @"%.4i" - 80, it print 0080
          * @"%04i" - 80, it print 0080
          */
-        NSLog (@"Today's date is %i/%i/%.2i.", today.month,
+        NSLog (@"Today's date is %i/%i/%.2i.\n", today.month,
                today.day, today.year % 100);
+
+        /* practice using pointer and -> operator */
+        struct date* ptr;
+        ptr = &today;
+        
+        /* Modify day saved in well-build memory */
+        ptr->day += 1;
+        ptr->year = 2016;
+        
+        NSLog (@"Today's date is %i/%i/%.2i.\n", ptr->month,
+               ptr->day, ptr->year % 100);
     }
     return 0;
 }
