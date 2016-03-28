@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 /* The entry section */
-int main (int argc, char * argv[])
+int main_enum_var (int argc, char * argv[])
 {
     
     @autoreleasepool {
