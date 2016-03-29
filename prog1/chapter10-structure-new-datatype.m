@@ -11,7 +11,7 @@
 #define LOGSAY(month, day, year) \
     NSLog (@"Today's date is %i/%i/%.2i.\n", (month), (day), (year) % 100)
 
-int main (int argc, char* argv[])
+int main_structure_datatype (int argc, char* argv[])
 {
     @autoreleasepool {
         
