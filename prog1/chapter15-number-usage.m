@@ -55,6 +55,17 @@ int main(int argc, char* argv[])
         myNumber = [[NSNumber alloc] initWithInt: 50];
         // NSLog (@"%i", [myNumber initWithInt: 100]);
         
+        /* Number objects is created by @expression */
+        intNumber = @100;
+        myInt = [intNumber integerValue];
+        NSLog (@"%li", (long) myInt);
+        
+        myNumber = @'X';
+        NSLog (@"%c", [myNumber charValue]);
+        
+        floatNumber = @100.0f;
+        NSLog (@"%g", [floatNumber floatValue]);
+        
     }
     return 0;
 }
