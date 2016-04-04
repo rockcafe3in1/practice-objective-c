@@ -49,6 +49,12 @@ int main(int argc, char* argv[])
         /* Test if one number is <, ==, or > second Number */
         if ([intNumber compare: myNumber] == NSOrderedDescending)
             NSLog (@"First number is less than second");
+        
+        /* Error case demonstration */
+        /* You cannot change the value of a previously created NSNumber object */
+        myNumber = [[NSNumber alloc] initWithInt: 50];
+        // NSLog (@"%i", [myNumber initWithInt: 100]);
+        
     }
     return 0;
 }
