@@ -18,6 +18,7 @@
 		ECA02D311C99BB10000244D6 /* chapter3-integer-arithmetic.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA02D301C99BB10000244D6 /* chapter3-integer-arithmetic.m */; };
 		ECAF9BFB1C28558B00C8FE0C /* chapter2-class-object.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAF9BFA1C28558B00C8FE0C /* chapter2-class-object.m */; };
 		ECC78C5A1CB2202C00CA2F9A /* chapter15-number-usage.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC78C591CB2202C00CA2F9A /* chapter15-number-usage.m */; };
+		ECC78C5C1CB230F600CA2F9A /* chapter15-nsstring-usage.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC78C5B1CB230F600CA2F9A /* chapter15-nsstring-usage.m */; };
 		ECE88BD21CA7B2110052063A /* chapter10-static-variable.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE88BD11CA7B2110052063A /* chapter10-static-variable.m */; };
 		ECE88BD41CA7BF5D0052063A /* chapter10-enum-variable.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE88BD31CA7BF5D0052063A /* chapter10-enum-variable.m */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		ECA02D301C99BB10000244D6 /* chapter3-integer-arithmetic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter3-integer-arithmetic.m"; sourceTree = "<group>"; };
 		ECAF9BFA1C28558B00C8FE0C /* chapter2-class-object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter2-class-object.m"; sourceTree = "<group>"; };
 		ECC78C591CB2202C00CA2F9A /* chapter15-number-usage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter15-number-usage.m"; sourceTree = "<group>"; };
+		ECC78C5B1CB230F600CA2F9A /* chapter15-nsstring-usage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter15-nsstring-usage.m"; sourceTree = "<group>"; };
 		ECE88BD11CA7B2110052063A /* chapter10-static-variable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter10-static-variable.m"; sourceTree = "<group>"; };
 		ECE88BD31CA7BF5D0052063A /* chapter10-enum-variable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter10-enum-variable.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 		EC74516E1C20617800040C1D = {
 			isa = PBXGroup;
 			children = (
+				ECC78C5B1CB230F600CA2F9A /* chapter15-nsstring-usage.m */,
 				EC7451791C20617800040C1D /* prog1 */,
 				EC7451781C20617800040C1D /* Products */,
 			);
@@ -161,6 +164,7 @@
 				EC1229771CA984BF00218849 /* chapter10-structure-new-datatype.m in Sources */,
 				EC5D71D01C985620000EDCF6 /* chapter3-datatypes.m in Sources */,
 				ECE88BD21CA7B2110052063A /* chapter10-static-variable.m in Sources */,
+				ECC78C5C1CB230F600CA2F9A /* chapter15-nsstring-usage.m in Sources */,
 				ECAF9BFB1C28558B00C8FE0C /* chapter2-class-object.m in Sources */,
 				EC95BB2D1CA1943A00075FFF /* chapter3-basic-array.m in Sources */,
 				ECC78C5A1CB2202C00CA2F9A /* chapter15-number-usage.m in Sources */,
