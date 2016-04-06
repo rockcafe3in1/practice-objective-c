@@ -56,8 +56,8 @@ int main_number(int argc, char* argv[])
         // NSLog (@"%i", [myNumber initWithInt: 100]);
         
         /* Number objects is created by @expression */
-        intNumber = @100;   /* intNumber is a primilary data type, similar to long */
-        myInt = [intNumber integerValue];
+        intNumber = @100;
+        myInt = [intNumber integerValue]; /* NSInteger actually is a primary data, unsign long */
         NSLog (@"%li", (long) myInt);
         
         myNumber = @'X';
