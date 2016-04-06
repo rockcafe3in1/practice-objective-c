@@ -10,7 +10,7 @@
 
 
 /* We will show you some usage tip about mutable string */
-int main(int argc, char* argv[])
+int main_mutable_string(int argc, char* argv[])
 {
     @autoreleasepool {
         
@@ -55,6 +55,7 @@ int main(int argc, char* argv[])
         [mstr replaceCharactersInRange: NSMakeRange(8, 8) withString: @"a mutable string"];
         NSLog (@"%@", mstr);
         
+        // Not finish.....
     }
     
     return 0;
