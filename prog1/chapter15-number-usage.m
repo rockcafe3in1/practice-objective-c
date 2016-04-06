@@ -8,12 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-int main_number(int argc, char* argv[])
+int main(int argc, char* argv[])
 {
     @autoreleasepool {
         
         /* Local variable declaration */
-        NSNumber *intNumber, *myNumber, *floatNumber, *doubleNumber;
+        NSNumber *intNumber, *myNumber, *floatNumber;
         NSInteger myInt;    /* equal typedef long NSInteger */
         
         /* Integer value */
@@ -34,11 +34,13 @@ int main_number(int argc, char* argv[])
         NSLog (@"%g", [floatNumber floatValue]);
         
         /* Double value */
-        doubleNumber = [NSNumber numberWithDouble:12345e+15];
-        NSLog (@"%lg", [doubleNumber doubleValue]);
+        myNumber = [NSNumber numberWithDouble: 12345e+15];
+        NSLog (@"Double number: %lg", [myNumber doubleValue]);
         
         /* Wrong access case */
-        NSLog (@"%li", (long) [myNumber integerValue]);
+        /* long variable have no enough space to save double value */
+        /* Console printed: Wrong case? : -9223372036854775808 */
+        NSLog (@"Wrong case? : %li", (long) [myNumber integerValue]);
         
         /* Test two numbers for equality */
         if ([intNumber isEqualToNumber: floatNumber] == YES)
