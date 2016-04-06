@@ -22,6 +22,7 @@
 		ECC78C5C1CB230F600CA2F9A /* chapter15-nsstring-usage.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC78C5B1CB230F600CA2F9A /* chapter15-nsstring-usage.m */; };
 		ECE88BD21CA7B2110052063A /* chapter10-static-variable.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE88BD11CA7B2110052063A /* chapter10-static-variable.m */; };
 		ECE88BD41CA7BF5D0052063A /* chapter10-enum-variable.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE88BD31CA7BF5D0052063A /* chapter10-enum-variable.m */; };
+		ECF8CA7A1CB55BBA0021FE07 /* chapter15-immutable-string.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF8CA791CB55BBA0021FE07 /* chapter15-immutable-string.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,7 @@
 		ECC78C5B1CB230F600CA2F9A /* chapter15-nsstring-usage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "chapter15-nsstring-usage.m"; path = "../chapter15-nsstring-usage.m"; sourceTree = "<group>"; };
 		ECE88BD11CA7B2110052063A /* chapter10-static-variable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter10-static-variable.m"; sourceTree = "<group>"; };
 		ECE88BD31CA7BF5D0052063A /* chapter10-enum-variable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter10-enum-variable.m"; sourceTree = "<group>"; };
+		ECF8CA791CB55BBA0021FE07 /* chapter15-immutable-string.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter15-immutable-string.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				ECC78C591CB2202C00CA2F9A /* chapter15-number-usage.m */,
 				ECC78C5B1CB230F600CA2F9A /* chapter15-nsstring-usage.m */,
 				EC4350031CB40FCA00BD1720 /* chapter15-mutable-string.m */,
+				ECF8CA791CB55BBA0021FE07 /* chapter15-immutable-string.m */,
 				ECAF9BFA1C28558B00C8FE0C /* chapter2-class-object.m */,
 				EC5D71CD1C985425000EDCF6 /* chapter2-data-encapsulation.m */,
 				ECA02D301C99BB10000244D6 /* chapter3-integer-arithmetic.m */,
@@ -165,6 +168,7 @@
 				EC5D71CE1C985425000EDCF6 /* chapter2-data-encapsulation.m in Sources */,
 				ECA02D311C99BB10000244D6 /* chapter3-integer-arithmetic.m in Sources */,
 				ECE88BD41CA7BF5D0052063A /* chapter10-enum-variable.m in Sources */,
+				ECF8CA7A1CB55BBA0021FE07 /* chapter15-immutable-string.m in Sources */,
 				EC1229771CA984BF00218849 /* chapter10-structure-new-datatype.m in Sources */,
 				EC5D71D01C985620000EDCF6 /* chapter3-datatypes.m in Sources */,
 				ECE88BD21CA7B2110052063A /* chapter10-static-variable.m in Sources */,
