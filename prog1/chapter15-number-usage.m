@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-int main_nsnumber(int argc, char* argv[])
+int main_number(int argc, char* argv[])
 {
     @autoreleasepool {
         
         /* Local variable declaration */
         NSNumber *intNumber, *myNumber, *floatNumber, *doubleNumber;
-        NSInteger myInt;
+        NSInteger myInt;    /* equal typedef long NSInteger */
         
         /* Integer value */
         intNumber = [NSNumber numberWithInteger: 100];
@@ -56,7 +56,7 @@ int main_nsnumber(int argc, char* argv[])
         // NSLog (@"%i", [myNumber initWithInt: 100]);
         
         /* Number objects is created by @expression */
-        intNumber = @100;
+        intNumber = @100;   /* intNumber is a primilary data type, similar to long */
         myInt = [intNumber integerValue];
         NSLog (@"%li", (long) myInt);
         
