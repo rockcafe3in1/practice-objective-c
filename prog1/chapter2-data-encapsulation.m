@@ -16,7 +16,7 @@
 // There no need to declare duplicate Class in single project
 // So i rename class Fraction in 'chapter02-class-object.m'
 // from Fraction class to FractionClassObject class
-@interface Fraction : NSObject
+@interface FractionDataEncap: NSObject
 
 -(void) print;
 -(void) setNumerator: (int) n;
@@ -29,7 +29,7 @@
 
 //---- @implementation section ----
 
-@implementation Fraction
+@implementation FractionDataEncap
 {
     // Instance variables
     int numerator;
@@ -70,7 +70,7 @@
 int main_data_encapsulation (int argc, const char * argv[])
 {
     @autoreleasepool {
-        Fraction *myFraction = [[Fraction alloc] init];
+        FractionDataEncap *myFraction = [[FractionDataEncap alloc] init];
         
         // Set fraction to 1/3
         
