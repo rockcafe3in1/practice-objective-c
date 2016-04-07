@@ -12,6 +12,8 @@
 		EC561D471CA67D40003D87B7 /* chapter10-global-variable.m in Sources */ = {isa = PBXBuildFile; fileRef = EC561D461CA67D40003D87B7 /* chapter10-global-variable.m */; };
 		EC5D71CE1C985425000EDCF6 /* chapter2-data-encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5D71CD1C985425000EDCF6 /* chapter2-data-encapsulation.m */; };
 		EC5D71D01C985620000EDCF6 /* chapter3-datatypes.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5D71CF1C985620000EDCF6 /* chapter3-datatypes.m */; };
+		EC6C7A8F1CB6B6350041FECA /* chapter7-accessing-property.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6C7A8E1CB6B6350041FECA /* chapter7-accessing-property.m */; };
+		EC6C7A931CB6B71E0041FECA /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6C7A921CB6B71E0041FECA /* Fraction.m */; };
 		EC6DC9DC1CAAEA5100A2C708 /* chapter13-sizeof-usage.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6DC9DB1CAAEA5100A2C708 /* chapter13-sizeof-usage.m */; };
 		EC74517B1C20617800040C1D /* chapter1-first-program.m in Sources */ = {isa = PBXBuildFile; fileRef = EC74517A1C20617800040C1D /* chapter1-first-program.m */; };
 		EC95BB2D1CA1943A00075FFF /* chapter3-basic-array.m in Sources */ = {isa = PBXBuildFile; fileRef = EC95BB2C1CA1943A00075FFF /* chapter3-basic-array.m */; };
@@ -43,6 +45,9 @@
 		EC561D461CA67D40003D87B7 /* chapter10-global-variable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter10-global-variable.m"; sourceTree = "<group>"; };
 		EC5D71CD1C985425000EDCF6 /* chapter2-data-encapsulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter2-data-encapsulation.m"; sourceTree = "<group>"; };
 		EC5D71CF1C985620000EDCF6 /* chapter3-datatypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter3-datatypes.m"; sourceTree = "<group>"; };
+		EC6C7A8E1CB6B6350041FECA /* chapter7-accessing-property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter7-accessing-property.m"; sourceTree = "<group>"; };
+		EC6C7A911CB6B7110041FECA /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		EC6C7A921CB6B71E0041FECA /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 		EC6DC9DB1CAAEA5100A2C708 /* chapter13-sizeof-usage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "chapter13-sizeof-usage.m"; sourceTree = "<group>"; };
 		EC7451771C20617800040C1D /* prog1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = prog1; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC74517A1C20617800040C1D /* chapter1-first-program.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "chapter1-first-program.m"; sourceTree = "<group>"; };
@@ -68,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC6C7A901CB6B6DC0041FECA /* common */ = {
+			isa = PBXGroup;
+			children = (
+				EC6C7A911CB6B7110041FECA /* Fraction.h */,
+				EC6C7A921CB6B71E0041FECA /* Fraction.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
 		EC74516E1C20617800040C1D = {
 			isa = PBXGroup;
 			children = (
@@ -90,8 +104,10 @@
 				EC74517A1C20617800040C1D /* chapter1-first-program.m */,
 				EC5D71CF1C985620000EDCF6 /* chapter3-datatypes.m */,
 				EC1229761CA984BF00218849 /* chapter10-structure-new-datatype.m */,
+				EC6C7A901CB6B6DC0041FECA /* common */,
 				EC6DC9DB1CAAEA5100A2C708 /* chapter13-sizeof-usage.m */,
 				ECC78C591CB2202C00CA2F9A /* chapter15-number-usage.m */,
+				EC6C7A8E1CB6B6350041FECA /* chapter7-accessing-property.m */,
 				ECC78C5B1CB230F600CA2F9A /* chapter15-nsstring-usage.m */,
 				EC4350031CB40FCA00BD1720 /* chapter15-mutable-string.m */,
 				ECF8CA791CB55BBA0021FE07 /* chapter15-immutable-string.m */,
@@ -166,6 +182,7 @@
 				EC4350041CB40FCA00BD1720 /* chapter15-mutable-string.m in Sources */,
 				EC95BB2F1CA19EEE00075FFF /* chapter3-pass-array-as-fun-arg.m in Sources */,
 				EC5D71CE1C985425000EDCF6 /* chapter2-data-encapsulation.m in Sources */,
+				EC6C7A8F1CB6B6350041FECA /* chapter7-accessing-property.m in Sources */,
 				ECA02D311C99BB10000244D6 /* chapter3-integer-arithmetic.m in Sources */,
 				ECE88BD41CA7BF5D0052063A /* chapter10-enum-variable.m in Sources */,
 				ECF8CA7A1CB55BBA0021FE07 /* chapter15-immutable-string.m in Sources */,
@@ -173,6 +190,7 @@
 				EC5D71D01C985620000EDCF6 /* chapter3-datatypes.m in Sources */,
 				ECE88BD21CA7B2110052063A /* chapter10-static-variable.m in Sources */,
 				ECC78C5C1CB230F600CA2F9A /* chapter15-nsstring-usage.m in Sources */,
+				EC6C7A931CB6B71E0041FECA /* Fraction.m in Sources */,
 				ECAF9BFB1C28558B00C8FE0C /* chapter2-class-object.m in Sources */,
 				EC95BB2D1CA1943A00075FFF /* chapter3-basic-array.m in Sources */,
 				ECC78C5A1CB2202C00CA2F9A /* chapter15-number-usage.m in Sources */,
